@@ -5,6 +5,8 @@ import { Item } from './Item';
 
 const style = {
   display: 'grid',
+  backgroundColor: 'black',
+  border: '4px solid black',
   gridTemplateColumns: 'repeat(3, 1fr)',
   gridTemplateRows: 'repeat(3, 1fr)',
   gap: '10px',
